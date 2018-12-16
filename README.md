@@ -9,7 +9,7 @@ First we developed a pipeline that converts a color image into an image that is 
 
 Second we tried other neural network approaches to generate sketches, which uses sketchy database data (http://sketchy.eye.gatech.edu/). Convolutional neural network pipelines are developed based on HED network mentioned above, and the generative adversarial model pipeline was generated based on a GAN structure used for quickdraw dataset (https://github.com/coreyauger/quickdraw-gan). We wrote a unified data parser for the two different pipelines.
 
-we have also included our tensorflow code (under cnn-and-gan\tensorflow_cnn folder) used for milestone development
+we have also included our tensorflow code (under `cnn-and-gan/tensorflow_cnn` folder) used for milestone development
 ## Neural Style Transfer Based
 ### Quick Start
 
@@ -31,10 +31,10 @@ Note that please check the directories you choose exist before running, also ple
 
 #### File Struture
 
-- `image_data\` includes input colored images, intermediate edge images, and sketches from dataset used for training 'sketchy' style.
-- `output\` will include generated sketches after running.
-- `samples\` includes some sample edge images and generated sketches we produced.
-- `model\` includes checkpoint.212-0.11.hdf5 and imagenet-vgg-verydeep-19.mat.If not, please download them before running.
+- `image_data/` includes input colored images, intermediate edge images, and sketches from dataset used for training 'sketchy' style.
+- `output/` will include generated sketches after running.
+- `samples/` includes some sample edge images and generated sketches we produced.
+- `model/` includes checkpoint.212-0.11.hdf5 and imagenet-vgg-verydeep-19.mat.If not, please download them before running.
 - `produceHED.py` generates and saves edge images.
 - `neural_style.py` reads and writes data, compute parameters for stylization.
 - `stylize.py` trains and generates sketches.
@@ -67,10 +67,10 @@ To run the CNN & GAN based part of our project
 Please create the following folders and structure them in the cnn&gan folder
 - `colorFolder` contains the color image used for testing/HED detection
 - `outputFolder` used to hold output images of the tested model / generated HED images
-- `train_val\train\trainInput` contains input image for training
-- `train_val\train\trainTarget` contains target image for training
-- `train_val\val\valInput` contains input image for validation
-- `train_val\val\valTarget` contains target image for validation
+- `train_val/train/trainInput` contains input image for training
+- `train_val/train/trainTarget` contains target image for training
+- `train_val/val/valInput` contains input image for validation
+- `train_val/val/valTarget` contains target image for validation
 - `GANSketch` contains sketch image for GAN training
 - `edgeSketch` contains edge image for GAN training
 
