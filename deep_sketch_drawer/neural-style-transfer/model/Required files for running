@@ -1,0 +1,5 @@
+Please download the 2 files and save them here in model/ before running neural_style.py.
+
+checkpoint.212-0.11.hdf5: https://drive.google.com/open?id=1A0cswDFqrzsSPfBUu4dhLe-62CaUo2Vg
+
+imagenet-vgg-verydeep-19.mat: https://drive.google.com/open?id=1bTg5sG05riyaAOfno41hE5fsOJfS10d8
