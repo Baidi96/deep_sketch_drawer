@@ -48,7 +48,7 @@ Note that please check the directories you choose exist before running, also ple
 cd deep_sketch_drawer/cnn-and-gan
 python runScripts.py
 ```
-Enter the `cnn&gan` directory and run   `runScripts.py`.
+Enter the `cnn-and-gan` directory and run   `runScripts.py`.
 This will run the HED network algorithm and produce edge images
 
 #### Parameters
