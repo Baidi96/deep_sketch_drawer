@@ -45,7 +45,7 @@ Note that please check the directories you choose exist before running, also ple
 ## CNN&GAN based
 ### Quick start
 ```
-cd deep_sketch_drawer/cnn\&gan
+cd deep_sketch_drawer/cnn-and-gan
 python runScripts.py
 ```
 Enter the `cnn&gan` directory and run   `runScripts.py`.
