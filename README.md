@@ -62,7 +62,7 @@ This will run the HED network algorithm and produce edge images
 --testFile #used to provide model file for testing purpose
 ```
 
-###Usage
+### Usage
 To run the CNN & GAN based part of our project
 Please create the following folders and structure them in the cnn&gan folder
 - `colorFolder` contains the color image used for testing/HED detection
