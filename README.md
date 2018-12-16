@@ -9,7 +9,7 @@ First we developed a pipeline that converts a color image into an image that is 
 
 Second we tried other neural network approaches to generate sketches, which uses sketchy database data (http://sketchy.eye.gatech.edu/). Convolutional neural network pipelines are developed based on HED network mentioned above, and the generative adversarial model pipeline was generated based on a GAN structure used for quickdraw dataset (https://github.com/coreyauger/quickdraw-gan). We wrote a unified data parser for the two different pipelines.
 
-we have also included our tensorflow code (under cnn&gan\tensorflow_cnn folder) used for milestone development
+we have also included our tensorflow code (under cnn-and-gan\tensorflow_cnn folder) used for milestone development
 ## Neural Style Transfer Based
 ### Quick Start
 
