@@ -14,7 +14,7 @@ we have also included our tensorflow code (under cnn&gan\tensorflow_cnn folder) 
 ### Quick Start
 
 ```
-cd neural-style-transfer
+cd deep_sketch_drawer/neural-style-transfer
 python neural_style.py
 ```
 Enter the `neural-style-transfer` directory, and run `neural_style.py`.
@@ -45,7 +45,7 @@ Note that please check the directories you choose exist before running, also ple
 ## CNN&GAN based
 ### Quick start
 ```
-cd cnn&gan
+cd deep_sketch_drawer/cnn\&gan
 python runScripts.py
 ```
 Enter the `cnn&gan` directory and run   `runScripts.py`.
